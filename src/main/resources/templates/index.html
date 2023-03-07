@@ -9,5 +9,11 @@
 <a href="/member/login">로그인</a>
 <a href="/board/save">글작성</a>
 <a href="/board/">글목록</a>
+<button onclick="pagingReq()">페이징목록</button>
 </body>
+<script>
+  const pagingReq = () => {
+    location.href = "/board/paging";
+  }
+</script>
 </html>
